@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+    <!-- Link to external CSS file (if needed) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section id="ordered-list">
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+            <li>Fourth item</li>
+            <li>Fifth item</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section id="image">
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1704122/pexels-photo-1704122.jpeg" alt="Beautiful Landscape" width="600">
+    </section>
+
+    <!-- Contacts Table -->
+    <section id="contacts">
+        <h2>Contacts Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1234 Main St, Springfield</td>
+                    <td>555-1234</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>5678 Oak Rd, Springfield</td>
+                    <td>555-5678</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Johnson</td>
+                    <td>9101 Pine Blvd, Rivertown</td>
+                    <td>555-9101</td>
+                    <td>mary.johnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>James Brown</td>
+                    <td>123 Birch St, Greendale</td>
+                    <td>555-1235</td>
+                    <td>james.brown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>246 Maple Ave, Hilltop</td>
+                    <td>555-2468</td>
+                    <td>emily.davis@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="registration-form">
+        <h2>Registration Form</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="newsletter">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+</html>
